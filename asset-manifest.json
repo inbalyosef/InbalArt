@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1f1ebff.css",
+    "main.js": "/static/js/main.b762f825.js",
+    "static/media/Inbal2.png": "/static/media/Inbal2.d1491466702284dfb5bc.png",
+    "static/media/Inbal2.JPG": "/static/media/Inbal2.664de94b0c3d7df474fd.JPG",
+    "static/media/back6.jpg": "/static/media/back6.b8ac61e92c0fb90c4df9.jpg",
+    "index.html": "/index.html",
+    "main.e1f1ebff.css.map": "/static/css/main.e1f1ebff.css.map",
+    "main.b762f825.js.map": "/static/js/main.b762f825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1f1ebff.css",
+    "static/js/main.b762f825.js"
+  ]
+}
