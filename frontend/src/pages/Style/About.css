@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0%;
+  }
+
+  
+  .about-me-left {
+    flex: 1;
+    padding-left: 5%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-right: 12%;
+    overflow: auto; 
+    max-height: calc(100%);
+  }
+
+.about-me-left::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Style the scrollbar thumb */
+.about-me-left::-webkit-scrollbar-thumb {
+  background-color: #3d3c3c; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the scrollbar track when hovered */
+.about-me-left::-webkit-scrollbar-thumb:hover {
+  background-color: #7e7e7e; /* Color when hovered */
+}
+  
+  
+  .about-me-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 52%;
+    width: 48%;
+    height: 100vh;
+    background-image: url('./Inbal2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  
+  .circle-image {
+    position: relative;
+    top: 20%;
+    right: 15%;
+    width: 380px;
+    height: 380px;
+    background-image: url('./Inbal2.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    
+  }
+  @media (max-width: 901px) {
+    
+    .about-me-container {
+      background-image: url('./Inbal2.JPG');
+      height: 100%;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+     
+    
+    }
+    .about-me-left {
+      align-self: center;
+      padding-left: 5%;
+      align-content: center;
+    }
+  
+    .about-me-right::before {
+      left: 0; /* Adjust overlay positioning */
+      width: 100%; /* Cover the entire width */
+      height: 40vh; /* Set a fixed height for overlay */
+    }
+  
+    .circle-image {
+      top: 0; /* Adjust positioning */
+      right: 0; /* Adjust positioning */
+      width: 80vw; /* Adjust width for small screens */
+      height: 80vw; /* Maintain aspect ratio */
+      max-width: 280px; /* Set a maximum width */
+      max-height: 280px; /* Set a maximum height */
+    }
+  }

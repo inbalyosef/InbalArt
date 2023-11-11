@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+:root {
+  --primary: #2b2726;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+}
+
+/* base styles & title */
+body {
+  font-family: "Noto Serif";
+  color: var(--secondary);
+  background-color: #d6d5d5;
+}
+.container-form{
+    margin-top: 7vh;
+}
+.form {
+    margin-top: 1% !important;
+    margin-left: 1% !important;
+}
+.form-left {
+  background-size: cover;
+  border-radius: 0.9rem;
+  height: 650px;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+}
+.typo-title{
+    font-weight: 600 !important;
+    padding-left: 4vh ;
+}
+.typo-left {
+    padding-left: 4vh;
+}
+.contact-data {
+  font-size: 20px !important;
+  font-family:"Century Gothic", Arial, sans-serif !important;
+}
+.contact-data.typo-left{
+   margin-top: 4vh;
+}
+.typo-insta {
+    padding-left: 3vh;
+}
+.instagram-button {
+  color: white !important;
+  font-size: 16px !important;
+  padding:  0.7  !important ;
+  padding-left: 1vh !important;
+  margin-top: 1;
+  box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.span-insta {
+  font-size: 10 !important;
+  text-align: start !important;
+  font-weight: 400 !important;
+}
+.form{
+  margin-left: 1vh !important;
+}
+.right-form {
+  margin-left: 2% !important;
+}
+
+.right-form .MuiTypography-root {
+  margin-bottom: 3%;
+  font-size: 21px;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-weight: 400;
+  color: #8c47a4;
+  display: none;
+}
+
+.right-form .MuiTypography-root {
+  display: flex;
+}
+
+.icons{
+  margin-right: 2vh;
+  font-size: 20px;
+}
+
+.icon-grid{
+  margin-top: 0.5vh !important;
+}
+
+.title h1 {
+  color: var(--primary);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.title h2 {
+  text-align: center;
+}
+.title p {
+  text-align: center;
+}
+
+.title h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
+
+/* upload form styles */
+.form-contact {
+  margin: 30px auto 10px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding-top: 0.5%;
+  padding-right: 2%;
+  padding-bottom: 0.5%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.message .MuiOutlinedInput-input {
+  color: #727070;
+}
+.button {
+  align-items: center;
+  background-color: #cb4ea1e8;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 45%;
+  max-width: 460px;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5%;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+.output {
+  height: 60px;
+  font-size: 0.8rem;
+}
+.error {
+  color: var(--error);
+}
+
+@media (max-width: 1000px) {
+  .title-grid {
+      display: flex;
+      justify-content: center;
+  }
+  .typo-title{
+      font-weight: 600 !important;
+      padding-left: 0vh ;
+      text-align: center;
+  }
+  .contact-title{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 900px) {
+    .form-contact{
+        width: 90% !important ;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+    .form-left {
+        border-radius:0rem;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        height: 500px;
+    }
+    .title-grid {
+        display: flex;
+        justify-content: center;
+    }
+    .typo-title{
+        font-weight: 600 !important;
+        padding-left: 0vh ;
+    }
+    .contact-title{
+       text-align: center;
+    }
+  }
+
+ 

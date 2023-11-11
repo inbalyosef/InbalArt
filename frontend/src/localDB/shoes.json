@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "shoesName": "guy",
+      "mimeType": "png",
+      "title": "GUY'S SHOES",
+      "description" : "Cartoon custom Air Force 1",
+      "price": 600,
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/shoes",
+      "link":"3FQXXPqC2H0"
+    },
+    {
+        "id": 2,
+        "shoesName": "ofir",
+        "mimeType": "png",
+        "title": "OFIR'S SHOES",
+        "description" : "Brown custom Air Force 1",
+        "price":400,
+        "imagePath": "https://storage.googleapis.com/inbal_art_bucket/shoes",
+        "link":"AMOeP-2UQVw"
+      },
+      {
+        "id": 3,
+        "shoesName": "matan",
+        "mimeType": "png",
+        "title": "MATAN'S SHOES",
+        "description" : "Gray custom Air Force 1",
+        "price":400,
+        "imagePath": "https://storage.googleapis.com/inbal_art_bucket/shoes",
+        "link":"vu8lcrtcP7c"
+      }
+  ]

@@ -1,0 +1,128 @@
+[
+  {
+      "id": 1,
+      "paintingName": "deer",
+      "mimeType": "jpg",
+      "description": "Black And White Deer",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 2,
+      "paintingName": "redDeer",
+      "mimeType": "jpg",
+      "description": "Fire Watercolor Deer",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 3,
+      "paintingName": "colDeer",
+      "mimeType": "jpg",
+      "description": "Watercolor Deer",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 4,
+      "paintingName": "blueWolf",
+      "mimeType": "jpg",
+      "description": "Watercolor Blue Wolf",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 5,
+      "paintingName": "sunflower",
+      "mimeType": "jpg",
+      "description": "Watercolor Sunflower",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 6,
+      "paintingName": "greenWolf",
+      "mimeType": "jpg",
+      "description": "Watercolor Green Wolf",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 7,
+      "paintingName": "blueDeer",
+      "mimeType": "jpg",
+      "description": "Watercolor Galaxy Deer",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 8,
+      "paintingName": "redWolf",
+      "mimeType": "png",
+      "description": "Watercolor Red Wolf",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 9,
+      "paintingName": "blueTriangle",
+      "mimeType": "jpg",
+      "description": "Watercolor Blue Triangle",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 10,
+      "paintingName": "bull",
+      "mimeType": "png",
+      "description": "Geometry Bull",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 11,
+      "paintingName": "greenCircle",
+      "mimeType": "jpg",
+      "description": "Watercolor Green Moon",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 12,
+      "paintingName": "halfWolf",
+      "mimeType": "jpg",
+      "description": "Half Realistic Wolf",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 13,
+      "paintingName": "mc",
+      "mimeType": "png",
+      "description": "Water Color Mountain",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 14,
+      "paintingName": "redBull",
+      "mimeType": "jpg",
+      "description": "Watercolor Red Bull",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 15,
+      "paintingName": "tree",
+      "mimeType": "jpg",
+      "description": "Water Color Sunset",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 16,
+      "paintingName": "TriangleCircle",
+      "mimeType": "png",
+      "description": "Water Color Shapes",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 17,
+      "paintingName": "rose",
+      "mimeType": "jpg",
+      "description": "Black Monitor Rose",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  },
+  {
+      "id": 18,
+      "paintingName": "bee",
+      "mimeType": "jpg",
+      "description": "Watercolor bee",
+      "imagePath": "https://storage.googleapis.com/inbal_art_bucket/paintings"
+  }
+]
